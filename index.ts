@@ -103,7 +103,7 @@ class Escuela {
 
 let persona:Persona = new Persona('Lopez', 'Julio','34567876','Los Lupinos','2964565676','lopezjulio@gmail.com');
 let persona1:Persona = new Persona('Benitez','Sergio','35678654','Los Guanacos','29645676543','benitez@gmail.com');
-let alumnos:Alumnos[] = [new Alumnos(persona,'Quimica',8), new Alumnos(persona,'Fisica',6)];
+let alumnos:Alumnos[] = [new Alumnos(persona,'Quimica',8), new Alumnos(persona1,'Fisica',6)];
 
 let profesores:Profesor = new Profesor(persona, alumnos,'quimica','5 2');
 

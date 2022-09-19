@@ -69,7 +69,7 @@ var Escuela = /** @class */ (function () {
 }());
 var persona = new Persona('Lopez', 'Julio', '34567876', 'Los Lupinos', '2964565676', 'lopezjulio@gmail.com');
 var persona1 = new Persona('Benitez', 'Sergio', '35678654', 'Los Guanacos', '29645676543', 'benitez@gmail.com');
-var alumnos = [new Alumnos(persona, 'Quimica', 8), new Alumnos(persona, 'Fisica', 6)];
+var alumnos = [new Alumnos(persona, 'Quimica', 8), new Alumnos(persona1, 'Fisica', 6)];
 var profesores = new Profesor(persona, alumnos, 'quimica', '5 2');
 var escuela = new Escuela(56765434, 'Soberania Nacional', 'Ruta 1 y Alvear', '2964567654', 'soberania@gmail.com', profesores, alumnos);
 profesores.listarAlumnos(alumnos);
