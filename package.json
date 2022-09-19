@@ -1,0 +1,11 @@
+{
+  "name": "sistemaeducativo",
+  "version": "1.0.0",
+  "description": "Sistema educativo controla altas y bajas de alumnos y profesores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Oyomek",
+  "license": "ISC"
+}
